@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 @Test
-	public static void main(String[] args) throws InterruptedException {
+	public void Read() {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\JyotsnaPatil\\chromedriver_win32\\chromedriver.exe");
 
