@@ -44,12 +44,12 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>3.8.1</version>
+			<version>3.13.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.8.1</version>
+			<version>3.13.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -58,10 +58,16 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>htmlunit-driver</artifactId>
+			<version>2.29.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.openqa.selenium.server</groupId>
 			<artifactId>selenium-server-coreless</artifactId>
 			<version>1.0-20081010.060147</version>
 		</dependency>
+
 		<dependency>
 
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -73,5 +79,6 @@
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>2.53.1</version>
 		</dependency>
+		
 	</dependencies>
 </project>
