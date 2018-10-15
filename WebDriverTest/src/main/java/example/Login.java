@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+//import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -39,7 +39,7 @@ public class Login {
 		driver.findElement(By.id("lst-ib")).sendKeys("abcd");
 		driver.findElement(By.id("lst-ib")).sendKeys(Keys.ENTER);
 		driver.findElement(By.partialLinkText("Letters For Toddlers")).click();
-		driver.manage().window().maximize();
+	//	driver.manage().window().maximize();
 
 		String baseURL = "http://demo.guru99.com/test/newtours/register.php";
 		driver.get(baseURL);
@@ -81,7 +81,7 @@ public class Login {
 	        
 	        driver = new ChromeDriver();
 	        
-	        driver.manage().window().maximize();
+	      //  driver.manage().window().maximize();
 	        
 	        driver.get(homePage);
 	        
