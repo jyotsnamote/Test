@@ -21,13 +21,15 @@
 				</configuration>
 			</plugin>
 			<!-- Below plug-in is used to execute tests -->
+			
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
+				<version>3.1</version>
 				<configuration>
-					<source>10.0.2</source>
-					<target>10.0.2</target>
+					<source>1.7</source>
+					<target>1.7</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk-10.0.2\bin\javac</executable>
 				</configuration>
 			</plugin>
 		</plugins>
