@@ -41,7 +41,7 @@ public class Login {
 
 		String baseURL = "http://demo.guru99.com/test/newtours/register.php";
 		driver.get(baseURL);
-		driver.findElement(By.name("firstName")).sendKeys("asd");
+		driver.findElement(By.name("firstName")).sendKeys("test");
 
 		// dropdown value
 		Select drp = new Select(driver.findElement(By.name("country")));
